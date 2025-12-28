@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Custom Explicit(pony)",
+        "prompt": "rating_explicit, score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, best quality, masterpiece, uncensored, (ultra realistic, photorealistic, raw photo, absurdly high resolution, unity 8k wallpaper, official art, official style), highly detailed, source_anime, game cg, megami magazine, source_anime, {prompt}",
+        "negative_prompt": "(bad anatomy, bad proportions, worst quality, low quality, bad hands:1.4), source_pony, source_furry, source_cartoon, score_3, score_2, score_1, censored, bar censor, mosaic censoring, extra legs, deformed anatomy, messy color, 3d, deformed fingers, distracted, jpeg artifacts, comic, abs, extra fingers,missing limbs, poorly drawn hands, deformed, mutated, too many fingers, extra limbs, mutant, body horror, bad hand anatomy, (embedding:NEGATIVE_HANDS:1.0), (embedding:zPDXL2-neg:1.0), (embedding:EzNegative-ponyxl-v2-neg:1.0), (embedding:deep_negative_pony:1.0)"
+    },
+    {
+        "name": "Custom Explicit Real(pony)",
+        "prompt": "rating_explicit, score_9, score_8_up, score_7_up,source_real,real skin, best quality, masterpiece, uncensored, (ultra realistic, photorealistic, raw photo, absurdly high resolution, unity 8k wallpaper, official art, official style), highly detailed, {prompt}",
+        "negative_prompt": "worst quality,low quality,worst detail,low detail,source_furry,source_pony,source_cartoon,2d,bad anatomy,bad hands,text,error,missing fingers,(extra digit:1.4),fewer digits,cropped,bad artist,outlines,jpeg artifacts,signature,watermark,username,blurry,3d"
+    },
+    {
+        "name": "Custom Explicit(animagine)",
+        "prompt": "explicit, nsfw, masterpiece, very aesthetic, newest, ultra detailed, absurdres, realistic",
+        "negative_prompt": "lowres, (bad), text, error, fewer digits, extra digits, missing fingers, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, chromatic aberration, signature, extra digits, artistic error, username, scan, [abstract], photo deformed, black and white, realism, disfigured, low contrast"
+    },
+    {
+        "name": "Custom Quality Score(pony)",
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, best quality, masterpiece",
+        "negative_prompt": ""
+    },
+    {
+        "name": "Custom Source Anime(pony)",
+        "prompt": "source_anime",
+        "negative_prompt": ""
+    },
+    {
+        "name": "Custom Rating Explicit(pony)",
+        "prompt": "rating_explicit",
+        "negative_prompt": ""
+    },
+    {
+        "name": "Custom Negative Anatomy",
+        "prompt": "",
+        "negative_prompt": "(bad anatomy, bad proportions, bad hands:1.4), extra legs, deformed anatomy"
+    },
+    {
+        "name": "Custom Negative Quality",
+        "prompt": "",
+        "negative_prompt": "score_3, score_2, score_1, (worst quality, low quality)"
+    },
+    {
+        "name": "Custom Negative Source(Pony, Furry, Cartoon)",
+        "prompt": "",
+        "negative_prompt": "source_pony, source_furry, source_cartoon"
+    }
+
+]

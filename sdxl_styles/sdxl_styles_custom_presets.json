@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Neon Custom(illustrious)",
+        "prompt": "(masterpiece), (best quality), (ultra-detailed), very aesthetic, newest",
+        "negative_prompt": "cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, very displeasing"
+    },
+    {
+        "name": "Neon2 Custom(illustrious)",
+        "prompt": "{prompt}, masterpiece, best quality, ultra-detailed, very aesthetic, newest",
+        "negative_prompt": "lowres, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, very displeasing"
+    },
+    {
+        "name": "Illustrious Default",
+        "prompt": "{prompt}, masterpiece, best quality, amaging quality, ultra-detailed, very aesthetic, absurdres, highres",
+        "negative_prompt": "(embedding:NEGATIVE_HANDS:1.0), (interlocked fingers, badly drawn hands and fingers, anatomically incorrect hands),(extra digit:1.1),head out of frame, lowres,(bad quality,worst quality:1.2), bad anatomy, sketch, jpeg artifacts, poorly drawn, (censor),blurry,watermark, bad anatomy, bad_hands, deformed anatomy, low quality, jpeg artifacts, signature, watermark, monochrome,very displeasing, chromatic aberration, artistic error, username, signature, scan, abstract"
+    },
+    {
+        "name": "Pony6 Default",
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, best quality, masterpiece, {prompt}",
+        "negative_prompt": "(bad anatomy, bad proportions, worst quality, low quality, bad hands:1.4), score_3, score_2, score_1, censored, bar censor, mosaic censoring, extra legs, deformed anatomy, messy color, deformed fingers, distracted, jpeg artifacts, abs, extra fingers,missing limbs, poorly drawn hands, deformed, mutated, too many fingers, extra limbs, mutant, body horror, bad hand anatomy, (embedding:NEGATIVE_HANDS:1.0), (embedding:zPDXL2-neg:1.0), (embedding:EzNegative-ponyxl-v2-neg:1.0), (embedding:deep_negative_pony:1.0)"
+    },
+    {   "name":"Pony6 Source Anime",
+        "prompt": "source_anime",
+        "negative_prompt": "comic, source_pony, source_furry, source_cartoon"
+    },
+    {   "name":"Pony6 Source Real",
+        "prompt": "source_real",
+        "negative_prompt": "comic, source_anime, source_pony, source_furry, source_cartoon"
+    },
+    {
+        "name": "Pony6 Rating (Explicit)",
+        "prompt": "rating_explicit, uncensored",
+        "negative_prompt": ""
+    },
+    {
+        "name": "Pony6 Rating (Safe)",
+        "prompt": "rating_safe",
+        "negative_prompt": "rating_explicit"
+    },
+    {
+        "name": "Pony6 Rating (Questionable)",
+        "prompt": "rating_questionable",
+        "negative_prompt": "rating_explicit"
+    },
+    {
+        "name": "Pony6 MEGAMI",
+        "prompt": "(ultra realistic, photorealistic, raw photo, absurdly high resolution, unity 8k wallpaper, official art, official style), highly detailed, game cg, megami magazine"
+    },
+    {"name": "Illustrious Style (Recent)", "prompt": "recent", "negative_prompt": "oldest"},
+    {"name": "Illustrious Style (Newest)", "prompt": "newest", "negative_prompt": "oldest"},
+    {"name": "Illustrious Style (Oldest)", "prompt": "oldest", "negative_prompt": "newest"},
+    {"name": "Illustrious Rating (General)", "prompt": "sfw, general", "negative_prompt": "nsfw, explicit"},
+    {"name": "Illustrious Rating (Sensitive)", "prompt": "sensitive"},
+    {"name": "Illustrious Rating (Questionable)", "prompt": "questionable"},
+    {"name": "Illustrious Rating (Explicit)", "prompt": "nsfw, explicit"},
+    {
+        "name": "Delicious Lighting and Real",
+        "prompt": "semi-photorealistic, cinematic lighting, dynamic lighting, volumetric lighting, beautiful lighting, realistic shading, realistic texture "
+    },
+    {
+        "name": "Beautiful detailed",
+        "prompt": "beautiful detailed hair, beautiful detailed eyes, beautiful detailed face, super detailed skin, sharp focus"
+    },
+    {
+        "name": "Single View", "prompt": "", "negative_prompt": "(multiple views:1.4), 2 girls, 3 girls"
+    },
+    {
+        "name": "In frame", "prompt": "", "negative_prompt": "(cropped:1.4), out of frame, head out of frame, cut off"
+    },
+    {
+        "name": "Neon Custom(pony)",
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, best quality, masterpiece, (absurdly high resolution), highly detailed, {prompt}",
+        "negative_prompt": "cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, very displeasing"
+    }
+]
